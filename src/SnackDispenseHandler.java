@@ -1,5 +1,5 @@
 public class SnackDispenseHandler {
-    private Snack snack;
+    private final Snack snack;
     private SnackDispenseHandler nextHandler;
 
     public SnackDispenseHandler(Snack snack) {
@@ -13,14 +13,14 @@ public class SnackDispenseHandler {
 
     public boolean dispenseSnack(double balance) {
         if (snack.getQuantity() == 0) {
-            System.out.println("Sorry, there is no " + snack.getName() + " left.");
+            System.out.println(STR."Sorry, there is no \{snack.getName()} left.");
             if (nextHandler != null) {
                 return nextHandler.dispenseSnack(balance);
             } else {
                 return false;
             }
         } else if (snack.getPrice() <= balance) {
-            System.out.println("Dispensing " + snack.getName());
+            System.out.println(STR."Dispensing \{snack.getName()}");
             snack.setQuantity(snack.getQuantity() - 1);
             return true;
         } else if (nextHandler != null) {

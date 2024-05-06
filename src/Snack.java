@@ -24,4 +24,9 @@ public class Snack {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return STR."\{name} ($\{String.format("%.2f", price)})";
+    }
 }
