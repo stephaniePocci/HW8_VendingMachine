@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Part 1 of HW 8 finished">
+    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Fixed warnings">
+      <change afterPath="$PROJECT_DIR$/src/SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SnackDispenseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SnackDispenseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StateOfVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StateOfVendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +35,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Driver.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.SimpleTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Stephanie/IdeaProjects/HW7_StructuralPatterns",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715035179414</updated>
-      <workItem from="1715035180481" duration="4430000" />
+      <workItem from="1715035180481" duration="5591000" />
     </task>
     <task id="LOCAL-00001" summary="Initilize HW 8">
       <option name="closed" value="true" />
@@ -75,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715038750825</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed warnings">
+      <option name="closed" value="true" />
+      <created>1715039749513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715039749513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initilize HW 8" />
     <MESSAGE value="Part 1 of HW 8 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 of HW 8 finished" />
+    <MESSAGE value="Fixed warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed warnings" />
   </component>
 </project>
