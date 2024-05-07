@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Added Junit testing">
-      <change afterPath="$PROJECT_DIR$/src/PrintSourceCode.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Added function to print source code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715035179414</updated>
-      <workItem from="1715035180481" duration="5911000" />
+      <workItem from="1715035180481" duration="6355000" />
     </task>
     <task id="LOCAL-00001" summary="Initilize HW 8">
       <option name="closed" value="true" />
@@ -101,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715044691924</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added function to print source code">
+      <option name="closed" value="true" />
+      <created>1715044936992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715044936992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
     <MESSAGE value="Part 1 of HW 8 finished" />
     <MESSAGE value="Fixed warnings" />
     <MESSAGE value="Added Junit testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Junit testing" />
+    <MESSAGE value="Added function to print source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to print source code" />
   </component>
 </project>

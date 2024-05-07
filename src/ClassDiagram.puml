@@ -1,0 +1,52 @@
+@startuml
+class Character {
+    - char character
+    - CharacterProperties characterProperty
+
+    + Character(char, CharacterProperties)
+    + void setCharacter(char)
+    + void setCharacterProperty(CharacterProperties)
+    + char getCharacter()
+    + String getFont()
+    + String getColor()
+    + int getSize()
+}
+
+class CharacterProperties {
+    - String font
+    - String color
+    - int size
+
+    + CharacterProperties(String, String, int)
+    + String getFont()
+    + String getColor()
+    + int getSize()
+}
+
+class CharacterPropertiesFactory {
+    - Map<String, CharacterProperties> flyweights
+
+    + CharacterProperties setAndRetrieveFlyweightCharacterProperties(String, String, int)
+    + int sizeOfMap()
+}
+
+class Document {
+    - List<Character> characters
+    - CharacterPropertiesFactory propertiesFactory
+
+    + void addCharacter(char, String, String, int)
+    + void editCharacterProperties(int, String, String, int)
+    + void saveToFile(String)
+    + void loadFromFile(String)
+}
+
+class Driver {
+    + static void main(String[])
+}
+
+CharacterProperties --> Character
+CharacterPropertiesFactory --> CharacterProperties
+Document --> Character
+Document --> CharacterPropertiesFactory
+Driver --> Document
+@enduml
