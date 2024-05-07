@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Fixed warnings">
-      <change afterPath="$PROJECT_DIR$/src/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2de855e-fa9d-4cbc-9238-f4f7ddc5f406" name="Changes" comment="Added Junit testing">
+      <change afterPath="$PROJECT_DIR$/src/PrintSourceCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +34,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Driver.executor": "Run",
+    "Application.PrintSourceCode.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.SimpleTest.executor": "Run",
+    "JUnit.VendingMachineTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Stephanie/IdeaProjects/HW7_StructuralPatterns",
@@ -65,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715035179414</updated>
-      <workItem from="1715035180481" duration="5591000" />
+      <workItem from="1715035180481" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="Initilize HW 8">
       <option name="closed" value="true" />
@@ -91,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715039749513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Junit testing">
+      <option name="closed" value="true" />
+      <created>1715044691924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715044691924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +111,7 @@
     <MESSAGE value="Initilize HW 8" />
     <MESSAGE value="Part 1 of HW 8 finished" />
     <MESSAGE value="Fixed warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed warnings" />
+    <MESSAGE value="Added Junit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Junit testing" />
   </component>
 </project>
